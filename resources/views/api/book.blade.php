@@ -11,7 +11,7 @@
 <body>
     <form action="{{route('APIbooksearch')}}" method="post">
         @csrf
-    <input type="text"  class="form-control" placeholder="Sexarch" name="searchTerm" />
+    <input type="text"  class="form-control" placeholder="Search" name="searchTerm" />
     <input type="submit" value='Search'>
     </form>
 <table clas="text-left">
